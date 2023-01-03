@@ -1,0 +1,39 @@
+baseURL = 'https://emicervantes.github.io/'
+languageCode = 'en-us'
+title = 'Emi Cervantes'
+theme = 'barks'
+enableEmoji = true
+
+[params.social]
+    [params.social.email]
+        name = "E-Mail"
+        class = "fas fa-envelope"
+        url = "mailto:emic@uci.edu"
+        weight = 1
+    [params.social.github]
+        name = "GitHub"
+        class = "fab fa-github"
+        url = "https://github.com/emicervantes"
+        weight = 2
+    [params.social.linkedin]
+        name = "LinkedIn"
+        class = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/emicervantes/"
+        weight = 3
+
+[[menu.main]]
+  name = "Research"
+  url = "/research/"
+  weight = 1
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 2
+[[menu.main]]
+  name = "Resume"
+  url = "https://drive.google.com/file/d/1lMZ1OmSvCTRBeVz3I1BI-jYq7etTMdFs/view"
+  weight = 3
+[[menu.main]]
+  name = "Album"
+  url = "/album/"
+  weight = 4
